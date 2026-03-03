@@ -2,11 +2,11 @@ package ejercicioss12ArrayList.ejercicio2;
 
 import java.util.ArrayList;
 
-public class Invert<E> {
+public class Invert {
 
     ArrayList<E> al;
 
-    public Invert(ArrayList<E> al) {
+    public <T> List<T> Invert(ArrayList<E> al) {
 	this.al = al;
     }
 
@@ -23,3 +23,4 @@ public class Invert<E> {
 
     }
 }
+
