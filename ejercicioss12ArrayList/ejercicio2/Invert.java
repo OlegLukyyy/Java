@@ -6,7 +6,7 @@ public class Invert {
 
     ArrayList<E> al;
 
-    public <T> List<T> Invert(ArrayList<E> al) {
+    public <E> List<E> Invert(ArrayList<E> al) {
 	this.al = al;
     }
 
@@ -23,4 +23,5 @@ public class Invert {
 
     }
 }
+
 
